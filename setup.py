@@ -23,7 +23,7 @@ data_files.append(('share/' + package_name + '/worlds', [
 data_files.append(('share/' + package_name + '/protos', [
     'protos/LegoTallInterval.proto',
     'protos/LegoTallWall.proto',
-    'protos/Pi-pup.proto',
+    'protos/Pi-puck.proto',
     'E-puck.proto',
 ]))
 data_files.append(('share/' + package_name + '/resource', [
