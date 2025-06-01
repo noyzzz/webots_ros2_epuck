@@ -83,12 +83,14 @@
         </device>
 
         <device reference="camera" type="Camera">
-            <ros>
-                <topicName>/camera</topicName>
-                <updateRate>30</updateRate>
-
-            </ros>
+        <ros>
+            <updateRate>30</updateRate>        <!-- required -->
+            <alwaysOn>true</alwaysOn>          <!-- also required -->
+            <frameName>camera_link</frameName>
+            <topicName>/camera</topicName>
+        </ros>
         </device>
+
 
         <device reference="pi-puck led 0" type="LED">
             <ros>
