@@ -4,15 +4,15 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/Pi-puck.proto"
+EXTERNPROTO "../protos/E-puck.proto"
+EXTERNPROTO "../protos/Pi-puck.proto"
 
 WorldInfo {
   info [
     "Simple e-puck simulation that can be controlled with ROS2."
   ]
   title "ROS2 simulation of the e-puck robot"
-  basicTimeStep 20
+  basicTimeStep 16
 }
 Viewpoint {
   orientation -0.3259129066293485 0.6045847308938715 0.7268136490617071 1.2809214799066853

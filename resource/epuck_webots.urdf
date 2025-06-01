@@ -91,6 +91,15 @@
         </ros>
         </device>
 
+        <device reference="top_camera" type="Camera">
+            <ros>
+                <topicName>/top_camera</topicName>
+                <updateRate>30</updateRate>
+                <alwaysOn>true</alwaysOn>
+                <frameName>top_camera_link</frameName>
+            </ros>
+        </device>
+
 
         <device reference="pi-puck led 0" type="LED">
             <ros>
