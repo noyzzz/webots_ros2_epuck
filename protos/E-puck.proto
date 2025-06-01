@@ -862,8 +862,8 @@ Robot {
     }
 
     DEF EPUCK_TOP_CAMERA Camera {
-      translation 0 0 0.10  # 10cm above the robot center
-      rotation 1 0 0 1.5708  # Look straight down
+      translation 0 0 1.10  # 10cm above the robot center
+      rotation 0 1 0 1.5708  # Look straight down
       width IS camera_width
       height IS camera_height
       fieldOfView 1.57
