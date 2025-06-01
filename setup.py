@@ -22,7 +22,9 @@ data_files.append(('share/' + package_name + '/worlds', [
 ]))
 data_files.append(('share/' + package_name + '/protos', [
     'protos/LegoTallInterval.proto',
-    'protos/LegoTallWall.proto'
+    'protos/LegoTallWall.proto',
+    'protos/Pi-pup.proto',
+    'E-puck.proto',
 ]))
 data_files.append(('share/' + package_name + '/resource', [
     'resource/all.rviz',
