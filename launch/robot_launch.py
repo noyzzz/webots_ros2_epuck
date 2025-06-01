@@ -43,7 +43,7 @@ def generate_launch_description():
     webots = WebotsLauncher(
         world=PathJoinSubstitution([package_dir, 'worlds', world]),
         ros2_supervisor=True,
-        mode='fast',
+        mode='realtime',
         gui=False
     )
 
