@@ -43,7 +43,8 @@ def generate_launch_description():
     webots = WebotsLauncher(
         world=PathJoinSubstitution([package_dir, 'worlds', world]),
         ros2_supervisor=True,
-        additional_args=['--mode=fast', '--no-rendering'] 
+        mode='fast',
+        gui=False
     )
 
     robot_state_publisher = Node(
