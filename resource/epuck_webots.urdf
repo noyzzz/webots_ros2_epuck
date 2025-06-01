@@ -6,6 +6,7 @@
                 <topicName>/ps0</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
             </ros>
         </device>
         <device reference="ps1" type="DistanceSensor">
@@ -13,6 +14,8 @@
                 <topicName>/ps1</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
         <device reference="ps2" type="DistanceSensor">
@@ -20,6 +23,7 @@
                 <topicName>/ps2</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
             </ros>
         </device>
         <device reference="ps3" type="DistanceSensor">
@@ -27,6 +31,8 @@
                 <topicName>/ps3</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
         <device reference="ps4" type="DistanceSensor">
@@ -34,6 +40,8 @@
                 <topicName>/ps4</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
         <device reference="ps5" type="DistanceSensor">
@@ -41,6 +49,8 @@
                 <topicName>/ps5</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
         <device reference="ps6" type="DistanceSensor">
@@ -48,6 +58,8 @@
                 <topicName>/ps6</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
         <device reference="ps7" type="DistanceSensor">
@@ -55,6 +67,8 @@
                 <topicName>/ps7</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
 
@@ -63,12 +77,16 @@
                 <topicName>/tof</topicName>
                 <enabled>true</enabled>
                 <alwaysOn>true</alwaysOn>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
 
         <device reference="camera" type="Camera">
             <ros>
                 <topicName>/camera</topicName>
+                <updateRate>30</updateRate>
+
             </ros>
         </device>
 
